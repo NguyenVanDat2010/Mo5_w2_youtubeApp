@@ -1,0 +1,11 @@
+<h2>Dictionary page - List word</h2>
+<ul>
+  <li *ngFor="let item of listWord">
+    <a [routerLink] = "['/dictionary', item.key]">{{item.key}}</a>
+  </li>
+</ul>
+<div>
+  <button (click) = 'authService.login()'>Login</button> |
+  <button (click) = 'authService.logout()'>Logout</button>
+</div>
+<router-outlet></router-outlet>
