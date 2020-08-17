@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "music-player"
+    }
+  },
+  "defaultProject": "music-player",
+  "cli": {
+    "analytics": "605ed20c-5d04-4e3e-8dcc-344903e7239c"
+  }
 }
