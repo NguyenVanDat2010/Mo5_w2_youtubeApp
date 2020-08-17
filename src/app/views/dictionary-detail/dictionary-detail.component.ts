@@ -18,8 +18,8 @@ export class DictionaryDetailComponent implements OnInit, OnDestroy {
     /**phương thức subscribe để theo dõi các thay đổi của dữ liệu hoặc
      * nhận về kết quả của một công việc nào đó.
      * */
-    /**activatedRoute kiểm tra tất cả các thay đổi trên URL của trang và lấy ra
-     * Lấy parameters từ route
+    /**activatedRoute kiểm tra tất cả các thay đổi trên URL của trang và lấy parameters từ route
+     * Để lấy được thông tin của route hiện tại: url, param, query param, etc.abs
      * lấy params "keyPath" từ url và lấy "word" để hiển thị từ IWord. Ta thực hiện trong ngOnInit
     */
     this.sub = this.activatedRoute.paramMap.subscribe((paramMap: ParamMap) =>{
